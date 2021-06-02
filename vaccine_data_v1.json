@@ -1,0 +1,29 @@
+{
+	"PerambraArea45Dose1":{
+		"Dose1": true,
+		"Dose2": false,
+		"AgeLimit": 45,
+		"Pincodes":[673525,673526,673532],
+		"botChatID": "1111111",
+		"groupChatID": "-12312",
+		"botToken": "11111:abcdPs"
+	},
+	"PerambraArea45Dose2":{
+		"Dose1": false,
+		"Dose2": true,
+		"AgeLimit": 45,
+		"Pincodes":[673525,673526,673532],
+		"botChatID": "1111111",
+		"groupChatID": "-12312",
+		"botToken": "1111111:abcdPs"
+	},
+	"PerambraArea18Dose1":{
+		"Dose1": true,
+		"Dose2": false,
+		"AgeLimit": 18,
+		"Pincodes":[673525,673526,673532],
+		"botChatID": "1111111",
+		"groupChatID": "-12321",
+		"botToken": "1111111:abcdPs"
+	}
+}
