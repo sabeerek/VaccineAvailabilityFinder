@@ -27,8 +27,8 @@ class Criteria:
         
     def doesMatch(self, vaccineData):
         if(vaccineData['min_age_limit'] == self.ageLimit and 
-           ((self.dose1 & vaccineData['available_capacity_dose1'] > 0) or 
-           (self.dose2 & vaccineData['available_capacity_dose2'] > 0))):
+           ((self.dose1 and vaccineData['available_capacity_dose1'] > 0) or 
+           (self.dose2 and vaccineData['available_capacity_dose2'] > 0))):
             return True
         return False
 
